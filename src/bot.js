@@ -34,7 +34,6 @@ bot.onText(/\/start/, (msg) => {
   + '✅3. Then add your API using command /setapi \n\n' 
   + 'Example: /setapi c49399f821fc020161bc2a31475ec59f35ae5b4\n\n'
   + '⚠️ You must have to send link with https:// or http://\n\n'
-  + 'Made with ❤️ By: Team FlameUrl;
   + '**Now, go ahead and try it out!**';
 
   bot.sendMessage(chatId, welcomeMessage);
