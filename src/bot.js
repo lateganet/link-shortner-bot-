@@ -24,17 +24,17 @@ bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
   const username = msg.from.username;
   const welcomeMessage = `😇 Hello, ${username}!\n\n`
-    + 'Welcome to the Indishort URL Shortener Bot!\n'
-    + 'You can use this bot to shorten URLs using the Indishort.live api service.\n\n'
+    + 'Welcome to the FlameUrl Shortener Bot!\n'
+    + 'You can use this bot to shorten URLs using the flameurl.com api service.\n\n'
     + 'To shorten a URL, just type or paste the URL directly in the chat, and the bot will provide you with the shortened URL.\n\n'
-    + 'If you haven\'t set your Indishort API token yet, use the command:\n/setapi YOUR_Indishort_API_TOKEN\n\n'
+    + 'If you haven\'t set your FlameUrl API token yet, use the command:\n/setapi YOUR_FlameUrl_API_TOKEN\n\n'
     + 'How To Use Me 👇👇 \n\n'
-  + '✅1. Got To https://indishort.live & Complete Your Registration.\n\n'
-  + '✅2. Then Copy Your API Key from here https://indishort.live/member/tools/api Copy Your API Only. \n\n'
+  + '✅1. Got To https://flameurl.com/ & Complete Your Registration.\n\n'
+  + '✅2. Then Copy Your API Key from here https://flameurl.com/member/tools/api Copy Your API Only. \n\n'
   + '✅3. Then add your API using command /setapi \n\n' 
   + 'Example: /setapi c49399f821fc020161bc2a31475ec59f35ae5b4\n\n'
   + '⚠️ You must have to send link with https:// or http://\n\n'
-  + 'Made with ❤️ By: @jit362';
+  + 'Made with ❤️ By: Team FlameUrl;
   + '**Now, go ahead and try it out!**';
 
   bot.sendMessage(chatId, welcomeMessage);
